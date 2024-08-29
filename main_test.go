@@ -4,11 +4,11 @@ import "testing"
 
 func TestHello(t *testing.T) {
 
- want := "Hello Golang"
+	want := "Hello Glang"
 
- got := hello()
+	got := hello()
 
- if want != got {
-  t.Fatalf("want %s, got %s\n", want, got)
- }
+	if want != got {
+		t.Fatalf("want %s, got %s\n", want, got)
+	}
 }
