@@ -6,11 +6,11 @@ var version = "dev"
 
 func main() {
 
- fmt.Printf("Version: %s\n", version)
+	fmt.Printf("Version: %s\n", version)
 
- fmt.Println(hello())
+	fmt.Println(hello())
 }
 
 func hello() string {
- return "Hello Glang"
+	return "Hello Golang"
 }
