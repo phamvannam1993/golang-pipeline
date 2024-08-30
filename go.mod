@@ -1,3 +1,3 @@
-go 1.16
+module github.com/phamvannam1993/golang-pipeline
 
-module example.com/mod
+go 1.16
