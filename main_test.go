@@ -9,6 +9,6 @@ func TestHello(t *testing.T) {
 	got := hello()
 
 	if want != got {
-		t.Fatalf("want %s, got %s\n", want, got)
+		t.Fatalf("want %s, got 222 %s\n", want, got)
 	}
 }
